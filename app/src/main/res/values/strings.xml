@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AloTest</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="masuk">Masuk</string>
+    <string name="my_app">My Apps</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="asykur_khamid">Asykur Khamid</string>
+    <string name="male">Male</string>
+    <string name="_085640490025">085640490025</string>
+    <string name="logout">logout</string>
+</resources>

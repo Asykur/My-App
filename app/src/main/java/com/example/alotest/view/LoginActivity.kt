@@ -15,6 +15,7 @@ import com.jakewharton.rxbinding2.widget.RxTextView
 import io.reactivex.Observable
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.functions.BiFunction
+import io.reactivex.subjects.BehaviorSubject
 import io.reactivex.subjects.PublishSubject
 import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.coroutines.launch
@@ -22,8 +23,8 @@ import kotlinx.coroutines.launch
 
 class LoginActivity : ActivityUtils() {
     private val disposable = CompositeDisposable()
-    private var eml = PublishSubject.create<Boolean>()
-    private var pwd = PublishSubject.create<Boolean>()
+    private var eml = BehaviorSubject.create<Boolean>()
+    private var pwd = BehaviorSubject.create<Boolean>()
     private lateinit var strEmail: String
     private lateinit var strPwd: String
 
